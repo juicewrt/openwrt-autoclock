@@ -35,4 +35,5 @@ Script ini menggunakan **header HTTP dari provider untuk menyinkronkan waktu, se
 
 ## ⚙️ Instalasi
 ```bash
-wget -O /usr/bin/autoclock.sh https://raw.githubusercontent.com/juicewrt/openwrt-autoclock/main/autoclock.sh | sh
+wget -qO- https://raw.githubusercontent.com/juicewrt/openwrt-autoclock/main/autoclock.sh | tee /usr/bin/autoclock.sh > /dev/null && chmod +x /usr/bin/autoclock.sh && /usr/bin/autoclock.sh
+
