@@ -23,7 +23,7 @@ Script ini menggunakan **header HTTP dari provider untuk menyinkronkan waktu, se
 ---
 
 ## 🚀 Fitur Utama
-- 🕒 **Sync waktu dari XL (HTTP header Date)**  
+- 🕒 **Sync waktu dari Provider (HTTP header Date)**  
 - 🗺️ **Deteksi zona waktu otomatis (WIB / WITA / WIT)**  
 - 🔁 **Auto-cron setiap 30 menit**  
 - 🧩 **Auto startup di `/etc/rc.local`**  
