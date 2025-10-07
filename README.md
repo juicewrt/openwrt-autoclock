@@ -15,7 +15,7 @@
 
 ## 🧠 Tentang
 `autoclock.sh` adalah utilitas ringan buatan **juicewrt** untuk menjaga waktu sistem OpenWrt / STB tetap akurat tanpa perlu NTP.  
-Script ini menggunakan **header HTTP dari XL** (`xl.co.id`) untuk menyinkronkan waktu, sehingga tetap berfungsi meskipun:
+Script ini menggunakan **header HTTP dari provider untuk menyinkronkan waktu, sehingga tetap berfungsi meskipun:
 - tidak ada koneksi NTP,
 - tidak ada kuota data,
 - atau injek belum aktif.
